@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import PresaleWidget from './components/PresaleWidget'
 import Tokenomics from './components/Tokenomics'
 import Whitelist from './components/Whitelist'
+import AnimeCharacter from './components/AnimeCharacter'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <AnimeCharacter />
         <PresaleWidget />
         <Tokenomics />
         <Whitelist />
